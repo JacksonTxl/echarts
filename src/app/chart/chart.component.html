@@ -1,0 +1,14 @@
+<div class="charts">
+  <div class="select">
+      <el-cascader style="width: 300px;" [options]="options" (modelChange)="changeHandle($event)" [size]="'large'" [clearable]="true">
+      </el-cascader>
+  </div>
+  <div class="first">
+    <div id="pipe" style="height: 400px;" routerLink="/chart-detail"></div>
+    <div id="bar" style="height: 400px;" routerLink="/chart-detail"></div>
+  </div>
+  <div class="first">
+    <div id="line1" style="height: 400px;" routerLink="/chart-detail"></div>
+    <div id="line2" style="height: 400px;" routerLink="/chart-detail"></div>
+  </div>
+</div>

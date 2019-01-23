@@ -1,0 +1,14 @@
+<el-table [model]="tableData" [scroll-x]="true" center="all" [stripe]="true">
+  <el-table-column model-key="name" label="用例名称" >
+  </el-table-column>
+  <el-table-column model-key="date" label="创建日期" >
+  </el-table-column>
+  <el-table-column model-key="address" label="所属项目组"  [render-html]="true">
+  </el-table-column>
+  <el-table-column label="操作" width="180">
+    <ng-template #slot let-scope="scope">
+      <el-button type="text" size="small" >编辑</el-button>
+      <el-button type="text" size="small" >删除</el-button>
+    </ng-template>
+  </el-table-column>
+</el-table>

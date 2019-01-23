@@ -1,0 +1,16 @@
+.charts{
+  .first{
+    display: flex;
+    >div{
+      flex: 1;
+      margin: 15px;
+      padding: 15px;
+      border: 1px solid #333;
+      box-shadow: 5px 5px 10px #7f7171;
+      border-radius: 5px;
+    }
+  }
+  .select{
+    margin-left: 15px;
+  }
+}
